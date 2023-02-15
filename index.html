@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <title>Formulaire 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="back-fond">
+        <div class="image">
+            <img src="images.png" alt="">
+        </div>
+        <div class="login">
+            <h1 style="padding-bottom: 0px;">Registration form</h1>
+            
+                <form method="" action="" class="form-one">
+                    <div class="identifients">
+                        <div class="one-input">
+                            <input type="text" name="prenom" id="prenom" class="first-name" placeholder="First name">
+                            <input type="text" name="nom" id="nom" class="last-name" placeholder="Last name">
+                        </div>
+                        <div class="input-icone">
+                            <i class="far fa-user"></i>
+                            <input type="text" name="username" id="username" class="User-name" placeholder="Username"></br>
+                        </div>
+                        <div class="input-icone">
+                            <i class="far fa-envelope"></i>
+                            <input type="email" name="email" id="email" class="Email-adress" placeholder="Email adress"> </br>
+                        </div>
+                        <select name="sujet" id="sujet" required>
+                            <option value="" disabled selected hidden>Genre</option>
+                            <option value="masculin">Masculin</option>
+                            <option value="feminin">Feminin</option>
+                            <option value="autre">Autre...</option>
+                        </select>
+                        <div class="input-icone">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" name="password" id="password" placeholder="Password"> </br>
+                            <i class="fas fa-lock"></i>
+                            <input type="password" name="password" id="passeword" placeholder="Confirm password"> </br>
+                        </div>
+
+                        <button type="submit" value="Register">Register</button>
+                    </div>
+                </form>
+        </div> 
+    </div>
+    
+</body>
+</html>
